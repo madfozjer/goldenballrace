@@ -52,6 +52,14 @@ onMounted(() => {
     return;
   }
 
+  var updateTime = "";
+  try {
+    updateTime = instance.appContext.config.globalProperties.$updateTime;
+  } catch (error) {
+    errorText.value = "$updateTime not found on globalProperties";
+    return;
+  }
+
   // Start the timeout countdown
   const timeout = setTimeout(() => {
     errorText.value = "Data loading timed out";
@@ -90,6 +98,8 @@ onMounted(() => {
     <div class="flex justify-center -mb-24">
       <img class="mt-6" src="@/assets/logo.png" alt="Logo" />
     </div>
+
+    <div class="flex justify-center -mb-24">Last update: {{ updateTime }}</div>
 
     <!-- Player Table Section -->
     <div class="mt-24 w-full flex justify-center px-4">
