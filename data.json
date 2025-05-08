@@ -19,25 +19,25 @@
     "team": "Real Madrid",
     "image": "https://images.fotmob.com/image_resources/playerimages/846033.png"
   },
-  "Florian Wirtz": {
-    "score": 2559,
-    "team": "Bayer Leverkusen",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1152455.png"
-  },
   "Ousmane Dembélé": {
-    "score": 2253,
+    "score": 2825,
     "team": "Paris Saint-Germain",
     "image": "https://images.fotmob.com/image_resources/playerimages/692984.png"
   },
   "Achraf Hakimi": {
-    "score": 2147,
+    "score": 2727,
     "team": "Paris Saint-Germain",
     "image": "https://images.fotmob.com/image_resources/playerimages/770881.png"
   },
   "Nuno Mendes": {
-    "score": 2136,
+    "score": 2700,
     "team": "Paris Saint-Germain",
     "image": "https://images.fotmob.com/image_resources/playerimages/1158945.png"
+  },
+  "Florian Wirtz": {
+    "score": 2559,
+    "team": "Bayer Leverkusen",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1152455.png"
   },
   "Serhou Guirassy": {
     "score": 1996,
@@ -223,5 +223,6 @@
     "score": 735,
     "team": "Roma (on loan)",
     "image": "https://images.fotmob.com/image_resources/playerimages/921341.png"
-  }
+  },
+  "lastUpdated": "2025-05-08T09:05:47.776Z"
 }
