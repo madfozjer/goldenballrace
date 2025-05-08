@@ -1,5 +1,5 @@
 <script setup>
-import { getCurrentInstance, onMounted, ref } from "vue";
+import { getCurrentInstance, onMounted, ref, computed } from "vue";
 import TableCell from "./components/TableCell.vue";
 
 const isLoaded = ref(false);
@@ -7,7 +7,7 @@ const isError = ref(false); // Track if there is an error
 const errorText = ref("");
 const data = ref({});
 const winProbability = ref([]);
-
+const time = ref("");
 const loadingTimeout = 10000; // Timeout after 10 seconds
 
 function calculateWinProbabilities(players, alpha = 0.0212) {
@@ -52,9 +52,8 @@ onMounted(() => {
     return;
   }
 
-  var updateTime = "";
   try {
-    updateTime = instance.appContext.config.globalProperties.$updateTime;
+    time.value = instance.appContext.config.globalProperties.$updateTime;
   } catch (error) {
     errorText.value = "$updateTime not found on globalProperties";
     return;
@@ -75,6 +74,14 @@ onMounted(() => {
   clearTimeout(timeout);
   isLoaded.value = true;
 });
+
+const updateTime = computed(() => {
+  if (time.value) {
+    return time.value;
+  } else {
+    return "Loading...";
+  }
+});
 </script>
 
 <template>
@@ -88,7 +95,7 @@ onMounted(() => {
     class="flex justify-center items-center h-screen text-4xl bg-gray-800 text-red-600"
     v-show="isError"
   >
-    {{ errorText }}
+    There is error on our side. Try reload!
   </div>
   <div
     v-show="isLoaded"
@@ -99,7 +106,15 @@ onMounted(() => {
       <img class="mt-6" src="@/assets/logo.png" alt="Logo" />
     </div>
 
-    <div class="flex justify-center -mb-24">Last update: {{ updateTime }}</div>
+    <div
+      class="flex justify-center mt-24 -mb-18 text-white font-bold text-xl md:text-3xl"
+      style="
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+          1px 1px 0 black;
+      "
+    >
+      Last update: {{ updateTime }}
+    </div>
 
     <!-- Player Table Section -->
     <div class="mt-24 w-full flex justify-center px-4">
