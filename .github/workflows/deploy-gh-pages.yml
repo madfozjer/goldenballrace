@@ -1,0 +1,32 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master # Or main, depending on your default branch name
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+
+      - name: Install dependencies
+        run: npm install # Or yarn install
+
+      - name: Build Vue app
+        run: npm run build # Or yarn build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # The folder where your built website is
+          branch: gh-pages # The branch to deploy to
+          token: ${{ secrets.GH_WORKFLOW_TOKEN }} # Use the default GitHub token
+          commit-message: "Deploy website to GitHub Pages"
