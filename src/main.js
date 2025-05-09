@@ -15,7 +15,7 @@ function convertUTCToLocal(utcTimestamp) {
     day: "numeric",
     hour: "numeric",
     minute: "numeric",
-    timeZone: "local",
+    timeZone: undefined, // Explicitly use the user's local time zone (default)
   };
 
   return utcDate.toLocaleString(undefined, options);
