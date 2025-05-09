@@ -8,9 +8,6 @@ app.config.globalProperties.$data = data;
 
 function convertUTCToLocal(utcTimestamp) {
   const utcDate = new Date(utcTimestamp);
-  const localDate = new Date(
-    utcDate.getTime() + utcDate.getTimezoneOffset() * 60000
-  );
 
   const options = {
     year: "numeric",
@@ -18,9 +15,10 @@ function convertUTCToLocal(utcTimestamp) {
     day: "numeric",
     hour: "numeric",
     minute: "numeric",
+    timeZone: "local",
   };
 
-  return localDate.toLocaleString(undefined, options);
+  return utcDate.toLocaleString(undefined, options);
 }
 
 app.config.globalProperties.$updateTime = convertUTCToLocal(data.lastUpdated);
