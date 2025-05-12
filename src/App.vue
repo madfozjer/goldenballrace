@@ -130,5 +130,15 @@ const updateTime = computed(() => {
         />
       </div>
     </div>
+    <div
+      id="footer"
+      class="flex flex-col items-center text-gray-100 font-bold"
+      style="
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+          1px 1px 0 black;
+      "
+    >
+      All rights reserved. mitrifozjer (@secondvahn on x), 2025.
+    </div>
   </div>
 </template>
