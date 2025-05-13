@@ -39,20 +39,10 @@
     "team": "Bayern München",
     "image": "https://images.fotmob.com/image_resources/playerimages/1029063.png"
   },
-  "Joshua Kimmich": {
-    "score": 3256,
-    "team": "Bayern München",
-    "image": "https://images.fotmob.com/image_resources/playerimages/460632.png"
-  },
   "Scott McTominay": {
     "score": 3220,
     "team": "Napoli",
     "image": "https://images.fotmob.com/image_resources/playerimages/843099.png"
-  },
-  "Jamal Musiala": {
-    "score": 3219,
-    "team": "Bayern München",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1156141.png"
   },
   "Robert Lewandowski": {
     "score": 3213,
@@ -64,20 +54,10 @@
     "team": "Barcelona",
     "image": "https://images.fotmob.com/image_resources/playerimages/1083323.png"
   },
-  "Dayot Upamecano": {
-    "score": 3159,
-    "team": "Bayern München",
-    "image": "https://images.fotmob.com/image_resources/playerimages/658554.png"
-  },
   "Mohamed Salah": {
     "score": 3140,
     "team": "Liverpool",
     "image": "https://images.fotmob.com/image_resources/playerimages/292462.png"
-  },
-  "Alphonso Davies": {
-    "score": 3136,
-    "team": "Bayern München",
-    "image": "https://images.fotmob.com/image_resources/playerimages/751202.png"
   },
   "Kylian Mbappé": {
     "score": 3124,
@@ -94,40 +74,15 @@
     "team": "Real Madrid",
     "image": "https://images.fotmob.com/image_resources/playerimages/1077894.png"
   },
-  "Federico Valverde": {
-    "score": 2928,
-    "team": "Real Madrid",
-    "image": "https://images.fotmob.com/image_resources/playerimages/743533.png"
-  },
   "Bukayo Saka": {
-    "score": 2910,
+    "score": 2942,
     "team": "Arsenal",
     "image": "https://images.fotmob.com/image_resources/playerimages/961995.png"
-  },
-  "Joao Neves": {
-    "score": 2781,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1342757.png"
-  },
-  "Bradley Barcola": {
-    "score": 2779,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1297165.png"
-  },
-  "Vitinha": {
-    "score": 2767,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1061249.png"
   },
   "Marcus Thuram": {
     "score": 2725,
     "team": "Inter",
     "image": "https://images.fotmob.com/image_resources/playerimages/621562.png"
-  },
-  "Omar Marmoush": {
-    "score": 2659,
-    "team": "Manchester City",
-    "image": "https://images.fotmob.com/image_resources/playerimages/839204.png"
   },
   "Erling Haaland": {
     "score": 2534,
@@ -144,10 +99,50 @@
     "team": "Real Madrid",
     "image": "https://images.fotmob.com/image_resources/playerimages/846033.png"
   },
+  "Joshua Kimmich": {
+    "score": 3256,
+    "team": "Bayern München",
+    "image": "https://images.fotmob.com/image_resources/playerimages/460632.png"
+  },
+  "Jamal Musiala": {
+    "score": 3247,
+    "team": "Bayern München",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1156141.png"
+  },
+  "Dayot Upamecano": {
+    "score": 3159,
+    "team": "Bayern München",
+    "image": "https://images.fotmob.com/image_resources/playerimages/658554.png"
+  },
+  "Alphonso Davies": {
+    "score": 3136,
+    "team": "Bayern München",
+    "image": "https://images.fotmob.com/image_resources/playerimages/751202.png"
+  },
+  "Federico Valverde": {
+    "score": 2928,
+    "team": "Real Madrid",
+    "image": "https://images.fotmob.com/image_resources/playerimages/743533.png"
+  },
   "Luis Diaz": {
-    "score": 2806,
+    "score": 2842,
     "team": "Liverpool",
     "image": "https://images.fotmob.com/image_resources/playerimages/860914.png"
+  },
+  "Joao Neves": {
+    "score": 2781,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1342757.png"
+  },
+  "Bradley Barcola": {
+    "score": 2779,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1297165.png"
+  },
+  "Vitinha": {
+    "score": 2767,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1061249.png"
   },
   "Hakan Calhanoglu": {
     "score": 2698,
@@ -159,6 +154,16 @@
     "team": "Atalanta",
     "image": "https://images.fotmob.com/image_resources/playerimages/690516.png"
   },
+  "Omar Marmoush": {
+    "score": 2659,
+    "team": "Manchester City",
+    "image": "https://images.fotmob.com/image_resources/playerimages/839204.png"
+  },
+  "Mattia Zaccagni": {
+    "score": 2472,
+    "team": "Lazio",
+    "image": "https://images.fotmob.com/image_resources/playerimages/541555.png"
+  },
   "Alexander Isak": {
     "score": 2471,
     "team": "Newcastle United",
@@ -169,13 +174,8 @@
     "team": "Chelsea",
     "image": "https://images.fotmob.com/image_resources/playerimages/1096353.png"
   },
-  "Mattia Zaccagni": {
-    "score": 2444,
-    "team": "Lazio",
-    "image": "https://images.fotmob.com/image_resources/playerimages/541555.png"
-  },
   "Isco": {
-    "score": 2408,
+    "score": 2438,
     "team": "Real Betis",
     "image": "https://images.fotmob.com/image_resources/playerimages/191315.png"
   },
@@ -183,6 +183,11 @@
     "score": 2403,
     "team": "Brentford",
     "image": "https://images.fotmob.com/image_resources/playerimages/923312.png"
+  },
+  "Xavi Simons": {
+    "score": 2401,
+    "team": "RB Leipzig",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1173787.png"
   },
   "Matias Soulé": {
     "score": 2386,
@@ -194,35 +199,30 @@
     "team": "Milan",
     "image": "https://images.fotmob.com/image_resources/playerimages/688295.png"
   },
+  "Álex Baena": {
+    "score": 2382,
+    "team": "Villarreal",
+    "image": "https://images.fotmob.com/image_resources/playerimages/942372.png"
+  },
   "Nadiem Amiri": {
     "score": 2375,
     "team": "Mainz 05",
     "image": "https://images.fotmob.com/image_resources/playerimages/614449.png"
   },
-  "Xavi Simons": {
+  "Bruno Fernandes": {
     "score": 2369,
-    "team": "RB Leipzig",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1173787.png"
+    "team": "Manchester United",
+    "image": "https://images.fotmob.com/image_resources/playerimages/422685.png"
+  },
+  "Nico Paz": {
+    "score": 2365,
+    "team": "Como",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1347574.png"
   },
   "Matheus Cunha": {
     "score": 2362,
     "team": "Wolverhampton Wanderers",
     "image": "https://images.fotmob.com/image_resources/playerimages/863098.png"
-  },
-  "Álex Baena": {
-    "score": 2354,
-    "team": "Villarreal",
-    "image": "https://images.fotmob.com/image_resources/playerimages/942372.png"
-  },
-  "Nico Paz": {
-    "score": 2337,
-    "team": "Como",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1347574.png"
-  },
-  "Bruno Fernandes": {
-    "score": 2335,
-    "team": "Manchester United",
-    "image": "https://images.fotmob.com/image_resources/playerimages/422685.png"
   },
   "Dodo": {
     "score": 2311,
@@ -264,5 +264,5 @@
     "team": "Monaco",
     "image": "https://images.fotmob.com/image_resources/playerimages/1113809.png"
   },
-  "lastUpdated": "2025-05-13T18:45:19.479Z"
+  "lastUpdated": "2025-05-13T18:47:08.397Z"
 }
