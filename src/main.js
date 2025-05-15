@@ -2,6 +2,7 @@ import "./assets/main.css";
 import { createApp } from "vue";
 import App from "./App.vue";
 import data from "../data.json";
+import router from "./router/router";
 
 const app = createApp(App);
 app.config.globalProperties.$data = data;
@@ -15,11 +16,12 @@ function convertUTCToLocal(utcTimestamp) {
     day: "numeric",
     hour: "numeric",
     minute: "numeric",
-    timeZone: undefined, // Explicitly use the user's local time zone (default)
+    timeZone: undefined,
   };
 
   return utcDate.toLocaleString(undefined, options);
 }
 
 app.config.globalProperties.$updateTime = convertUTCToLocal(data.lastUpdated);
+app.use(router);
 app.mount("#app");
