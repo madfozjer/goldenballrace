@@ -149,15 +149,15 @@
     "team": "Bayer Leverkusen",
     "image": "https://images.fotmob.com/image_resources/playerimages/693599.png"
   },
+  "Youri Tielemans": {
+    "score": 4758,
+    "team": "Aston Villa",
+    "image": "https://images.fotmob.com/image_resources/playerimages/465960.png"
+  },
   "Marcos Llorente": {
     "score": 4746,
     "team": "Atletico Madrid",
     "image": "https://images.fotmob.com/image_resources/playerimages/602563.png"
-  },
-  "Youri Tielemans": {
-    "score": 4742,
-    "team": "Aston Villa",
-    "image": "https://images.fotmob.com/image_resources/playerimages/465960.png"
   },
   "Manuel Locatelli": {
     "score": 4671,
@@ -429,11 +429,6 @@
     "team": "Newcastle United",
     "image": "https://images.fotmob.com/image_resources/playerimages/690107.png"
   },
-  "Cole Palmer": {
-    "score": 2469,
-    "team": "Chelsea",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1096353.png"
-  },
   "Hugo Ekitike": {
     "score": 2461,
     "team": "Eintracht Frankfurt",
@@ -453,6 +448,11 @@
     "score": 2453,
     "team": "Atalanta",
     "image": "https://images.fotmob.com/image_resources/playerimages/1095432.png"
+  },
+  "Cole Palmer": {
+    "score": 2453,
+    "team": "Chelsea",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1096353.png"
   },
   "Isco": {
     "score": 2437,
@@ -525,7 +525,7 @@
     "image": "https://images.fotmob.com/image_resources/playerimages/614449.png"
   },
   "Bruno Fernandes": {
-    "score": 2369,
+    "score": 2368,
     "team": "Manchester United",
     "image": "https://images.fotmob.com/image_resources/playerimages/422685.png"
   },
@@ -599,11 +599,6 @@
     "team": "Bologna",
     "image": "https://images.fotmob.com/image_resources/playerimages/661761.png"
   },
-  "Moisés Caicedo": {
-    "score": 2317,
-    "team": "Chelsea",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1137668.png"
-  },
   "Eberechi Eze": {
     "score": 2316,
     "team": "Crystal Palace",
@@ -649,10 +644,10 @@
     "team": "Fiorentina",
     "image": "https://images.fotmob.com/image_resources/playerimages/747926.png"
   },
-  "Enzo Fernández": {
+  "Moisés Caicedo": {
     "score": 2301,
     "team": "Chelsea",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1137705.png"
+    "image": "https://images.fotmob.com/image_resources/playerimages/1137668.png"
   },
   "Yann Sommer": {
     "score": 2297,
@@ -684,6 +679,11 @@
     "team": "Brentford",
     "image": "https://images.fotmob.com/image_resources/playerimages/666857.png"
   },
+  "Enzo Fernández": {
+    "score": 2285,
+    "team": "Chelsea",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1137705.png"
+  },
   "Dodo": {
     "score": 2285,
     "team": "Fiorentina",
@@ -710,7 +710,7 @@
     "image": "https://images.fotmob.com/image_resources/playerimages/593118.png"
   },
   "Amad Diallo": {
-    "score": 2277,
+    "score": 2276,
     "team": "Manchester United",
     "image": "https://images.fotmob.com/image_resources/playerimages/1070052.png"
   },
@@ -745,7 +745,7 @@
     "image": "https://images.fotmob.com/image_resources/playerimages/80295.png"
   },
   "Heung-Min Son": {
-    "score": 2258,
+    "score": 2259,
     "team": "Tottenham Hotspur",
     "image": "https://images.fotmob.com/image_resources/playerimages/212867.png"
   },
@@ -754,15 +754,15 @@
     "team": "Nottingham Forest",
     "image": "https://images.fotmob.com/image_resources/playerimages/789502.png"
   },
+  "James Maddison": {
+    "score": 2257,
+    "team": "Tottenham Hotspur",
+    "image": "https://images.fotmob.com/image_resources/playerimages/493165.png"
+  },
   "Antoine Semenyo": {
     "score": 2257,
     "team": "AFC Bournemouth",
     "image": "https://images.fotmob.com/image_resources/playerimages/933576.png"
-  },
-  "James Maddison": {
-    "score": 2256,
-    "team": "Tottenham Hotspur",
-    "image": "https://images.fotmob.com/image_resources/playerimages/493165.png"
   },
   "Florian Thauvin": {
     "score": 2256,
@@ -1074,5 +1074,5 @@
     "team": "Monaco",
     "image": "https://images.fotmob.com/image_resources/playerimages/604088.png"
   },
-  "lastUpdated": "2025-05-16T18:25:25.647Z"
+  "lastUpdated": "2025-05-16T19:20:39.318Z"
 }
