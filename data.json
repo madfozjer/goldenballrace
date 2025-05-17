@@ -65,7 +65,7 @@
     "image": "https://images.fotmob.com/image_resources/playerimages/846033.png"
   },
   "Serhou Guirassy": {
-    "score": 5358,
+    "score": 5381,
     "team": "Borussia Dortmund",
     "image": "https://images.fotmob.com/image_resources/playerimages/448540.png"
   },
@@ -339,15 +339,15 @@
     "team": "Paris Saint-Germain",
     "image": "https://images.fotmob.com/image_resources/playerimages/940976.png"
   },
+  "Nico Schlotterbeck": {
+    "score": 2703,
+    "team": "Borussia Dortmund",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1002058.png"
+  },
   "David Raya": {
     "score": 2687,
     "team": "Arsenal",
     "image": "https://images.fotmob.com/image_resources/playerimages/562727.png"
-  },
-  "Nico Schlotterbeck": {
-    "score": 2680,
-    "team": "Borussia Dortmund",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1002058.png"
   },
   "Karim Adeyemi": {
     "score": 2677,
@@ -434,6 +434,11 @@
     "team": "Newcastle United",
     "image": "https://images.fotmob.com/image_resources/playerimages/690107.png"
   },
+  "Hugo Ekitike": {
+    "score": 2461,
+    "team": "Eintracht Frankfurt",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1197030.png"
+  },
   "Kenan Yildiz": {
     "score": 2457,
     "team": "Juventus",
@@ -443,11 +448,6 @@
     "score": 2453,
     "team": "Atalanta",
     "image": "https://images.fotmob.com/image_resources/playerimages/1095432.png"
-  },
-  "Vincenzo Grifo": {
-    "score": 2451,
-    "team": "Freiburg",
-    "image": "https://images.fotmob.com/image_resources/playerimages/400625.png"
   },
   "Isco": {
     "score": 2437,
@@ -463,11 +463,6 @@
     "score": 2424,
     "team": "Atletico Madrid",
     "image": "https://images.fotmob.com/image_resources/playerimages/1338192.png"
-  },
-  "Hugo Ekitike": {
-    "score": 2423,
-    "team": "Eintracht Frankfurt",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1197030.png"
   },
   "Savinho": {
     "score": 2418,
@@ -494,15 +489,15 @@
     "team": "Villarreal",
     "image": "https://images.fotmob.com/image_resources/playerimages/942372.png"
   },
+  "Vincenzo Grifo": {
+    "score": 2390,
+    "team": "Freiburg",
+    "image": "https://images.fotmob.com/image_resources/playerimages/400625.png"
+  },
   "Jérémy Doku": {
     "score": 2389,
     "team": "Manchester City",
     "image": "https://images.fotmob.com/image_resources/playerimages/942368.png"
-  },
-  "Ritsu Doan": {
-    "score": 2389,
-    "team": "Freiburg",
-    "image": "https://images.fotmob.com/image_resources/playerimages/629805.png"
   },
   "Josko Gvardiol": {
     "score": 2388,
@@ -528,6 +523,11 @@
     "score": 2367,
     "team": "Villarreal",
     "image": "https://images.fotmob.com/image_resources/playerimages/479020.png"
+  },
+  "Nathaniel Brown": {
+    "score": 2367,
+    "team": "Eintracht Frankfurt",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1395447.png"
   },
   "Kevin De Bruyne": {
     "score": 2363,
@@ -589,10 +589,10 @@
     "team": "Athletic Club",
     "image": "https://images.fotmob.com/image_resources/playerimages/639450.png"
   },
-  "Nathaniel Brown": {
-    "score": 2329,
-    "team": "Eintracht Frankfurt",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1395447.png"
+  "Ritsu Doan": {
+    "score": 2328,
+    "team": "Freiburg",
+    "image": "https://images.fotmob.com/image_resources/playerimages/629805.png"
   },
   "Finn Dahmen": {
     "score": 2326,
@@ -1074,5 +1074,5 @@
     "team": "Monaco",
     "image": "https://images.fotmob.com/image_resources/playerimages/604088.png"
   },
-  "lastUpdated": "2025-05-17T14:09:23.580Z"
+  "lastUpdated": "2025-05-17T14:28:47.943Z"
 }
