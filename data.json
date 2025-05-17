@@ -589,15 +589,15 @@
     "team": "Athletic Club",
     "image": "https://images.fotmob.com/image_resources/playerimages/639450.png"
   },
-  "Finn Dahmen": {
-    "score": 2331,
-    "team": "Augsburg",
-    "image": "https://images.fotmob.com/image_resources/playerimages/926445.png"
-  },
   "Ritsu Doan": {
     "score": 2328,
     "team": "Freiburg",
     "image": "https://images.fotmob.com/image_resources/playerimages/629805.png"
+  },
+  "Finn Dahmen": {
+    "score": 2326,
+    "team": "Augsburg",
+    "image": "https://images.fotmob.com/image_resources/playerimages/926445.png"
   },
   "Enzo Fernández": {
     "score": 2321,
@@ -669,6 +669,11 @@
     "team": "Athletic Club",
     "image": "https://images.fotmob.com/image_resources/playerimages/660625.png"
   },
+  "Franck Honorat": {
+    "score": 2292,
+    "team": "Borussia Mönchengladbach",
+    "image": "https://images.fotmob.com/image_resources/playerimages/501543.png"
+  },
   "Vanja Milinkovic-Savic": {
     "score": 2291,
     "team": "Torino",
@@ -679,25 +684,20 @@
     "team": "Brentford",
     "image": "https://images.fotmob.com/image_resources/playerimages/666857.png"
   },
-  "Franck Honorat": {
-    "score": 2287,
-    "team": "Borussia Mönchengladbach",
-    "image": "https://images.fotmob.com/image_resources/playerimages/501543.png"
-  },
   "Dodo": {
     "score": 2285,
     "team": "Fiorentina",
     "image": "https://images.fotmob.com/image_resources/playerimages/750734.png"
   },
+  "Tim Kleindienst": {
+    "score": 2285,
+    "team": "Borussia Mönchengladbach",
+    "image": "https://images.fotmob.com/image_resources/playerimages/442728.png"
+  },
   "Alex Iwobi": {
     "score": 2281,
     "team": "Fulham",
     "image": "https://images.fotmob.com/image_resources/playerimages/604785.png"
-  },
-  "Tim Kleindienst": {
-    "score": 2280,
-    "team": "Borussia Mönchengladbach",
-    "image": "https://images.fotmob.com/image_resources/playerimages/442728.png"
   },
   "Robin Zentner": {
     "score": 2279,
@@ -1074,5 +1074,5 @@
     "team": "Monaco",
     "image": "https://images.fotmob.com/image_resources/playerimages/604088.png"
   },
-  "lastUpdated": "2025-05-17T14:47:27.438Z"
+  "lastUpdated": "2025-05-17T15:10:59.402Z"
 }
