@@ -754,11 +754,6 @@
     "team": "AFC Bournemouth",
     "image": "https://images.fotmob.com/image_resources/playerimages/933576.png"
   },
-  "Andrej Kramaric": {
-    "score": 2257,
-    "team": "Hoffenheim",
-    "image": "https://images.fotmob.com/image_resources/playerimages/173461.png"
-  },
   "James Maddison": {
     "score": 2256,
     "team": "Tottenham Hotspur",
@@ -778,6 +773,11 @@
     "score": 2256,
     "team": "Werder Bremen",
     "image": "https://images.fotmob.com/image_resources/playerimages/749488.png"
+  },
+  "Andrej Kramaric": {
+    "score": 2255,
+    "team": "Hoffenheim",
+    "image": "https://images.fotmob.com/image_resources/playerimages/173461.png"
   },
   "Mikkel Damsgaard": {
     "score": 2250,
@@ -849,18 +849,18 @@
     "team": "Celta Vigo",
     "image": "https://images.fotmob.com/image_resources/playerimages/952095.png"
   },
-  "Tom Bischof": {
-    "score": 2219,
-    "team": "Hoffenheim",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1286183.png"
-  },
   "Aaron Wan-Bissaka": {
     "score": 2217,
     "team": "West Ham United",
     "image": "https://images.fotmob.com/image_resources/playerimages/760320.png"
   },
+  "Tom Bischof": {
+    "score": 2217,
+    "team": "Hoffenheim",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1286183.png"
+  },
   "Anton Stach": {
-    "score": 2216,
+    "score": 2214,
     "team": "Hoffenheim",
     "image": "https://images.fotmob.com/image_resources/playerimages/881735.png"
   },
@@ -1074,5 +1074,5 @@
     "team": "Monaco",
     "image": "https://images.fotmob.com/image_resources/playerimages/604088.png"
   },
-  "lastUpdated": "2025-05-17T14:04:11.599Z"
+  "lastUpdated": "2025-05-17T14:09:23.580Z"
 }
