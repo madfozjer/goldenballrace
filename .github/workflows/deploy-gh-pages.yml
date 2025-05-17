@@ -18,10 +18,9 @@ jobs:
           node-version: "lts/*"
 
       - name: Install dependencies
-        run: npm install # Or yarn install
-
+        run: npm install
       - name: Build Vue app
-        run: npm run build # Or yarn build
+        run: vite build # Or npm run build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
