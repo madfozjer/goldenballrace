@@ -1,31 +1,54 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches:
       - master # Or main, depending on your default branch name
 
+permissions:
+  pages: write
+  id-token: write # This is often required by deployment actions
+  contents: read # Usually needed to checkout your code
+
 jobs:
-  build-and-deploy:
+  deployment:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Set up Node.js
+      - name: Set up Node.js # Or your build environment
         uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
-
-      - name: Install dependencies
-        run: npm install
-      - name: Build Vue app
+      - name: Build your site # Your build commands
         run: npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: dist # The folder where your built website is
-          branch: gh-pages # The branch to deploy to
-          token: ${{ github.token }} # Use the default GitHub token
-          commit-message: "Deploy website to GitHub Pages"
+          path: "./dist" # Or your build output directory
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+#  jobs:
+#  build-and-deploy:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout code
+#        uses: actions/checkout@v4
+#
+#      - name: Set up Node.js
+#        uses: actions/setup-node@v4
+#        with:
+#          node-version: "lts/*"
+
+#      - name: Install dependencies
+#        run: npm install
+#      - name: Build Vue app
+#        run: npm run build
+
+#      - name: Deploy to GitHub Pages
+#        uses: JamesIves/github-pages-deploy-action@v4
+#       with:
+#         folder: dist # The folder where your built website is
+#         branch: gh-pages # The branch to deploy to
+#         token: ${{ github.token }} # Use the default GitHub token
+#         commit-message: "Deploy website to GitHub Pages"
