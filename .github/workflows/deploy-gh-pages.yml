@@ -20,12 +20,12 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build Vue app
-        run: vite build # Or npm run build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist # The folder where your built website is
           branch: gh-pages # The branch to deploy to
-          token: ${{ secrets.GH_WORKFLOW_TOKEN }} # Use the default GitHub token
+          token: ${{ github.token }} # Use the default GitHub token
           commit-message: "Deploy website to GitHub Pages"
