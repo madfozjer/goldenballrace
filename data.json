@@ -4,6 +4,16 @@
     "team": "Barcelona",
     "image": "https://images.fotmob.com/image_resources/playerimages/696679.png"
   },
+  "Ousmane Dembélé": {
+    "score": 5970,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/692984.png"
+  },
+  "Achraf Hakimi": {
+    "score": 5909,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/770881.png"
+  },
   "Harry Kane": {
     "score": 5869,
     "team": "Bayern München",
@@ -18,6 +28,21 @@
     "score": 5689,
     "team": "Bayern München",
     "image": "https://images.fotmob.com/image_resources/playerimages/1029063.png"
+  },
+  "Joao Neves": {
+    "score": 5622,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1342757.png"
+  },
+  "Nuno Mendes": {
+    "score": 5605,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1158945.png"
+  },
+  "Vitinha": {
+    "score": 5605,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1061249.png"
   },
   "Robert Lewandowski": {
     "score": 5572,
@@ -59,20 +84,10 @@
     "team": "Borussia Dortmund",
     "image": "https://images.fotmob.com/image_resources/playerimages/448540.png"
   },
-  "Ousmane Dembélé": {
-    "score": 5377,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/692984.png"
-  },
   "Alphonso Davies": {
     "score": 5356,
     "team": "Bayern München",
     "image": "https://images.fotmob.com/image_resources/playerimages/751202.png"
-  },
-  "Achraf Hakimi": {
-    "score": 5316,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/770881.png"
   },
   "Bukayo Saka": {
     "score": 5292,
@@ -108,21 +123,6 @@
     "score": 5073,
     "team": "Liverpool",
     "image": "https://images.fotmob.com/image_resources/playerimages/831489.png"
-  },
-  "Nuno Mendes": {
-    "score": 5057,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1158945.png"
-  },
-  "Joao Neves": {
-    "score": 5055,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1342757.png"
-  },
-  "Vitinha": {
-    "score": 5040,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1061249.png"
   },
   "Antoine Griezmann": {
     "score": 4918,
@@ -174,15 +174,40 @@
     "team": "Milan",
     "image": "https://images.fotmob.com/image_resources/playerimages/688295.png"
   },
+  "Jonathan David": {
+    "score": 4112,
+    "team": "Lille",
+    "image": "https://images.fotmob.com/image_resources/playerimages/939569.png"
+  },
   "Khvicha Kvaratskhelia": {
     "score": 3893,
     "team": "Paris Saint-Germain",
     "image": "https://images.fotmob.com/image_resources/playerimages/900433.png"
   },
-  "Jonathan David": {
-    "score": 3565,
-    "team": "Lille",
-    "image": "https://images.fotmob.com/image_resources/playerimages/939569.png"
+  "Bradley Barcola": {
+    "score": 3351,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1297165.png"
+  },
+  "Désiré Doué": {
+    "score": 3312,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1339208.png"
+  },
+  "Fabián Ruiz": {
+    "score": 3309,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/605654.png"
+  },
+  "Marquinhos": {
+    "score": 3295,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/267365.png"
+  },
+  "Kang-In Lee": {
+    "score": 3288,
+    "team": "Paris Saint-Germain",
+    "image": "https://images.fotmob.com/image_resources/playerimages/940976.png"
   },
   "Dayot Upamecano": {
     "score": 3159,
@@ -299,40 +324,15 @@
     "team": "Liverpool",
     "image": "https://images.fotmob.com/image_resources/playerimages/760712.png"
   },
-  "Bradley Barcola": {
-    "score": 2789,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1297165.png"
-  },
   "Ryan Gravenberch": {
     "score": 2779,
     "team": "Liverpool",
     "image": "https://images.fotmob.com/image_resources/playerimages/956683.png"
   },
-  "Désiré Doué": {
-    "score": 2759,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1339208.png"
-  },
   "Virgil van Dijk": {
     "score": 2758,
     "team": "Liverpool",
     "image": "https://images.fotmob.com/image_resources/playerimages/209405.png"
-  },
-  "Fabián Ruiz": {
-    "score": 2756,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/605654.png"
-  },
-  "Marquinhos": {
-    "score": 2743,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/267365.png"
-  },
-  "Kang-In Lee": {
-    "score": 2740,
-    "team": "Paris Saint-Germain",
-    "image": "https://images.fotmob.com/image_resources/playerimages/940976.png"
   },
   "Nico Schlotterbeck": {
     "score": 2703,
@@ -925,149 +925,149 @@
     "image": "https://images.fotmob.com/image_resources/playerimages/617310.png"
   },
   "Benjamin André": {
-    "score": 1232,
+    "score": 1786,
     "team": "Lille",
     "image": "https://images.fotmob.com/image_resources/playerimages/148830.png"
   },
-  "Hákon Arnar Haraldsson": {
-    "score": 1209,
-    "team": "Lille",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1044470.png"
-  },
   "Mason Greenwood": {
-    "score": 1193,
+    "score": 1766,
     "team": "Marseille",
     "image": "https://images.fotmob.com/image_resources/playerimages/950473.png"
   },
   "Andrey Santos": {
-    "score": 1174,
+    "score": 1755,
     "team": "Strasbourg (on loan)",
     "image": "https://images.fotmob.com/image_resources/playerimages/1372921.png"
   },
+  "Hákon Arnar Haraldsson": {
+    "score": 1755,
+    "team": "Lille",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1044470.png"
+  },
   "Adrien Rabiot": {
-    "score": 1155,
+    "score": 1719,
     "team": "Marseille",
     "image": "https://images.fotmob.com/image_resources/playerimages/352879.png"
   },
   "Denis Zakaria": {
-    "score": 1148,
+    "score": 1711,
     "team": "Monaco",
     "image": "https://images.fotmob.com/image_resources/playerimages/598355.png"
   },
   "Jonathan Clauss": {
-    "score": 1147,
+    "score": 1709,
     "team": "Nice",
     "image": "https://images.fotmob.com/image_resources/playerimages/715301.png"
   },
   "Rayan Cherki": {
-    "score": 1147,
+    "score": 1709,
     "team": "Lyon",
     "image": "https://images.fotmob.com/image_resources/playerimages/1104053.png"
   },
   "Pierre-Emile Højbjerg": {
-    "score": 1143,
+    "score": 1708,
     "team": "Marseille (on loan)",
     "image": "https://images.fotmob.com/image_resources/playerimages/266523.png"
   },
   "Djordje Petrovic": {
-    "score": 1141,
+    "score": 1698,
     "team": "Strasbourg (on loan)",
     "image": "https://images.fotmob.com/image_resources/playerimages/1067256.png"
   },
   "Dilane Bakwa": {
-    "score": 1139,
+    "score": 1692,
     "team": "Strasbourg",
     "image": "https://images.fotmob.com/image_resources/playerimages/1079539.png"
   },
   "Maghnes Akliouche": {
-    "score": 1136,
+    "score": 1688,
     "team": "Monaco",
     "image": "https://images.fotmob.com/image_resources/playerimages/1305618.png"
   },
-  "Donovan Léon": {
-    "score": 1128,
-    "team": "Auxerre",
-    "image": "https://images.fotmob.com/image_resources/playerimages/279866.png"
-  },
   "Luis Henrique": {
-    "score": 1125,
+    "score": 1681,
     "team": "Marseille",
     "image": "https://images.fotmob.com/image_resources/playerimages/1114635.png"
   },
   "Przemyslaw Frankowski": {
-    "score": 1125,
+    "score": 1681,
     "team": "Galatasaray (on loan)",
     "image": "https://images.fotmob.com/image_resources/playerimages/402419.png"
   },
-  "Yahia Fofana": {
-    "score": 1125,
-    "team": "Angers",
-    "image": "https://images.fotmob.com/image_resources/playerimages/873566.png"
+  "Donovan Léon": {
+    "score": 1678,
+    "team": "Auxerre",
+    "image": "https://images.fotmob.com/image_resources/playerimages/279866.png"
   },
   "Adrien Thomasson": {
-    "score": 1123,
+    "score": 1671,
     "team": "Lens",
     "image": "https://images.fotmob.com/image_resources/playerimages/317062.png"
   },
   "Evann Guessand": {
-    "score": 1123,
+    "score": 1671,
     "team": "Nice",
     "image": "https://images.fotmob.com/image_resources/playerimages/1087966.png"
   },
-  "Gaëtan Perrin": {
-    "score": 1118,
-    "team": "Auxerre",
-    "image": "https://images.fotmob.com/image_resources/playerimages/708435.png"
-  },
   "Corentin Tolisso": {
-    "score": 1117,
+    "score": 1670,
     "team": "Lyon",
     "image": "https://images.fotmob.com/image_resources/playerimages/473852.png"
   },
+  "Yahia Fofana": {
+    "score": 1670,
+    "team": "Angers",
+    "image": "https://images.fotmob.com/image_resources/playerimages/873566.png"
+  },
+  "Gaëtan Perrin": {
+    "score": 1665,
+    "team": "Auxerre",
+    "image": "https://images.fotmob.com/image_resources/playerimages/708435.png"
+  },
   "Lamine Camara": {
-    "score": 1110,
+    "score": 1659,
     "team": "Monaco",
     "image": "https://images.fotmob.com/image_resources/playerimages/1436305.png"
   },
   "Hicham Boudaoui": {
-    "score": 1102,
+    "score": 1649,
     "team": "Nice",
     "image": "https://images.fotmob.com/image_resources/playerimages/1033099.png"
   },
   "Ludovic Blas": {
-    "score": 1097,
+    "score": 1643,
     "team": "Rennes",
     "image": "https://images.fotmob.com/image_resources/playerimages/693171.png"
   },
-  "Guéla Doué": {
-    "score": 1094,
-    "team": "Strasbourg",
-    "image": "https://images.fotmob.com/image_resources/playerimages/1395704.png"
-  },
   "Cristian Casseres Jr.": {
-    "score": 1093,
+    "score": 1640,
     "team": "Toulouse",
     "image": "https://images.fotmob.com/image_resources/playerimages/845943.png"
   },
+  "Guéla Doué": {
+    "score": 1638,
+    "team": "Strasbourg",
+    "image": "https://images.fotmob.com/image_resources/playerimages/1395704.png"
+  },
   "Wilfried Singo": {
-    "score": 1092,
+    "score": 1636,
     "team": "Monaco",
     "image": "https://images.fotmob.com/image_resources/playerimages/1027472.png"
   },
   "Youssouf Ndayishimiye": {
-    "score": 1089,
+    "score": 1633,
     "team": "Nice",
     "image": "https://images.fotmob.com/image_resources/playerimages/1057703.png"
   },
   "Leonardo Balerdi": {
-    "score": 1089,
+    "score": 1633,
     "team": "Marseille",
     "image": "https://images.fotmob.com/image_resources/playerimages/958464.png"
   },
   "Thilo Kehrer": {
-    "score": 1087,
+    "score": 1631,
     "team": "Monaco",
     "image": "https://images.fotmob.com/image_resources/playerimages/604088.png"
   },
-  "lastUpdated": "2025-05-18T09:29:42.359Z"
+  "lastUpdated": "2025-05-18T09:36:39.346Z"
 }
