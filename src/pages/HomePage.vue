@@ -67,7 +67,7 @@ onMounted(() => {
 
   // Process data and win probabilities
   const rawData = globalData;
-  data.value = Object.fromEntries(Object.entries(rawData).slice(0, 25));
+  data.value = Object.fromEntries(Object.entries(rawData).slice(0, 30));
   winProbability.value = calculateWinProbabilities(data.value);
 
   // Once data is loaded, clear the timeout and update the isLoaded flag
