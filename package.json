@@ -14,14 +14,21 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.3",
+    "@vuepress/bundler-vite": "^2.0.0-rc.23",
+    "@vuepress/theme-default": "^2.0.0-rc.106",
+    "fs-extra": "^11.3.0",
     "gh-pages": "^6.3.0",
+    "sass-embedded": "^1.89.1",
     "vite": "^6.2.4",
-    "vite-plugin-vue-devtools": "^7.7.2"
+    "vite-plugin-vue-devtools": "^7.7.2",
+    "vuepress": "^2.0.0-rc.23"
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev:blog": "vuepress dev docs",
+    "build": "npm run build:site && npm run build:blog && node scripts/copy-blog-assets.js",
+    "build:site": "vite build",
+    "build:blog": "vuepress build docs",
     "deploy": "npm run build && gh-pages -d dist"
   }
 }

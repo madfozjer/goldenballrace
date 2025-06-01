@@ -1,9 +1,11 @@
 name: Deploy to GitHub Pages
+
 on:
   push:
     branches:
       - master # Or main, depending on your default branch name
 
+# Set permissions for the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   pages: write
   id-token: write # This is often required by deployment actions
@@ -13,48 +15,36 @@ jobs:
   deployment:
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }} # Correctly link to the deployed URL
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Set up Node.js # Or your build environment
+
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
+          cache: "npm" # Cache npm dependencies for faster builds
+
       - name: Install dependencies
         run: npm install
-      - name: Build your site # Your build commands
+
+      - name: Build site (Main App + VuePress Blog)
+        # This command runs "npm run build:main && npm run build:blog && node scripts/copy-blog-assets.js"
+        # as defined in your package.json, which handles all the combining.
         run: npm run build
+
+      - name: Create CNAME file for custom domain
+        # Replace 'www.yourdomain.com' with your actual custom domain
+        run: echo 'www.golden-ball-race.eu' > ./dist/CNAME
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "./dist" # Or your build output directory
+          path: "./dist" # Your final combined build output directory
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          token: ${{ secrets.GH_WORKFLOW }}
-#  jobs:
-#  build-and-deploy:
-#    runs-on: ubuntu-latest
-#    steps:
-#      - name: Checkout code
-#        uses: actions/checkout@v4
-#
-#      - name: Set up Node.js
-#        uses: actions/setup-node@v4
-#        with:
-#          node-version: "lts/*"
-
-#      - name: Install dependencies
-#        run: npm install
-#      - name: Build Vue app
-#        run: npm run build
-
-#      - name: Deploy to GitHub Pages
-#        uses: JamesIves/github-pages-deploy-action@v4
-#       with:
-#         folder: dist # The folder where your built website is
-#         branch: gh-pages # The branch to deploy to
-#         token: ${{ github.token }} # Use the default GitHub token
-#         commit-message: "Deploy website to GitHub Pages"
+        #  token: ${{ secrets.GH_WORKFLOW }}
