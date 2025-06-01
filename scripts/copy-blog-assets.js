@@ -1,5 +1,5 @@
-const fs = require("fs-extra");
-const path = require("path");
+import fs from "fs-extra";
+import path from "path";
 
 const mainAppDistDir = path.resolve(__dirname, "../dist");
 const vuepressTempDistDir = path.resolve(__dirname, "../docs/dist-blog-temp");
