@@ -6,6 +6,7 @@ dist/
 .todo
 npm-debug.log*
 yarn-error.log*
+dist-blog-temp/
 
 .vscode/*
 !.vscode/settings.json
