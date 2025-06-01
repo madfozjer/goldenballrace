@@ -18,6 +18,8 @@ export default defineUserConfig({
   theme: defaultTheme({
     darkMode: true,
     sidebar: false,
+    lastUpdated: false,
+    contributors: false,
   }),
 
   // Markdown extensions (optional, e.g., for custom containers, emoji support)

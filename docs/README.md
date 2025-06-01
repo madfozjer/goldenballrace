@@ -1,5 +1,5 @@
-# Welcome to My Golden Ball Race Blog!
+# Golden Ball Race Blog
 
-This is the homepage for the blog, where I share updates and insights about the golden ball race project.
+This is the homepage for the blog, where I will irregulary post updates about project and cool facts from football stats world
 
-[Read my first post here](/first-post.html)
+[2024/25 TOTY](toty24)
