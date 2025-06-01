@@ -37,7 +37,7 @@ jobs:
 
       - name: Create CNAME file for custom domain
         # Replace 'www.yourdomain.com' with your actual custom domain
-        run: echo 'www.golden-ball-race.eu' > ./dist/CNAME
+        run: echo 'golden-ball-race.eu' > ./dist/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
