@@ -4,6 +4,7 @@ import { viteBundler } from "@vuepress/bundler-vite"; // <-- Import the bundler
 
 export default defineUserConfig({
   base: "/blog/",
+  dest: "dist-blog-temp",
   bundler: viteBundler(),
 
   title: "GBL Blog",
@@ -29,6 +30,4 @@ export default defineUserConfig({
   //   '@vuepress/plugin-search',
   //   // ... other plugins
   // ],
-
-  dest: "dist-blog-temp",
 });
