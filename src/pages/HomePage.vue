@@ -115,6 +115,20 @@ const updateTime = computed(() => {
     >
       Last update: {{ updateTime }}
     </div>
+    <div
+      class="flex justify-center mt-24 -mb-18 text-white font-bold text-xl md:text-2xl"
+      style="
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+          1px 1px 0 black;
+      "
+    >
+      Latest blog post: &nbsp;
+      <a
+        class="underline"
+        href="https://www.golden-ball-race.eu/blog/toty24.html"
+        >Team of the Season 2024/2025</a
+      >
+    </div>
 
     <!-- Player Table Section -->
     <div class="mt-24 w-full flex justify-center px-4">
