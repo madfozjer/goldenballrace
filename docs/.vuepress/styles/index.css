@@ -1,0 +1,36 @@
+/* Reduce space between paragraphs */
+p {
+  margin-bottom: 0.5em; /* Default is often 1em or 16px */
+  margin-top: 0.5em; /* Add this if you want less space above paragraphs too */
+}
+
+/* Reduce space below headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5em; /* Reduce space below headings */
+  margin-top: 0.8em; /* You might keep space above headings for separation */
+}
+
+/* Reduce space between list items */
+li {
+  margin-bottom: 0.2em; /* Less space between bullet points or numbered items */
+}
+
+/* Reduce space below images */
+img {
+  margin-bottom: 0.5em; /* Less space between an image and the next element */
+}
+
+/* Targeting specific elements in the main content area */
+/* This is a more robust way to target content within Markdown pages */
+.markdown-body p {
+  margin-bottom: 0.5em;
+}
+
+.markdown-body img {
+  margin-bottom: 0.5em;
+}

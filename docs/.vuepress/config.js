@@ -13,23 +13,11 @@ export default defineUserConfig({
 
   lang: "en-US",
 
-  head: [["link", { rel: "icon", href: "/public/favicon.ico" }]],
-
   theme: defaultTheme({
     darkMode: true,
     sidebar: false,
     lastUpdated: false,
     contributors: false,
+    logo: "/favicon.ico",
   }),
-
-  // Markdown extensions (optional, e.g., for custom containers, emoji support)
-  // markdown: {
-  //   extractHeaders: { level: [2, 3, 4] },
-  // },
-
-  // Plugins configuration (e.g., for search, PWA, Google Analytics)
-  // plugins: [
-  //   '@vuepress/plugin-search',
-  //   // ... other plugins
-  // ],
 });
